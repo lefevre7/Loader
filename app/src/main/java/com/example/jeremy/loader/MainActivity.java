@@ -26,9 +26,9 @@ import java.util.ArrayList;
 public class MainActivity extends Activity {
 
     //variables
-    public ListView list1;
-    public ArrayAdapter<String> adapter;
-    public ArrayList<String> stringArray1 = new ArrayList<String>();
+    private ListView list1;
+    private ArrayAdapter<String> adapter;
+    private ArrayList<String> stringArray1 = new ArrayList<String>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
